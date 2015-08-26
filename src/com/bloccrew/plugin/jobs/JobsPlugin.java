@@ -1,4 +1,4 @@
-package com.norway240.JobsPlugin;
+package com.bloccrew.plugin.jobs;
 
 import java.util.logging.Logger;
 
@@ -10,12 +10,12 @@ public class JobsPlugin extends JavaPlugin{
     public final PluginDescriptionFile pdf = this.getDescription();
     
     public void onEnable(){
-        logger.info(pdf.getName()+"v"+pdf.getVersion()+" by norway240 enabled!");
+        logger.info("["+pdf.getAuthors().get(0)+"] ["+pdf.getName()+"] "pdf.getName()+" v"+pdf.getVersion()+" has been enabled!");
     }
     
     @Override
     public void onDisable(){
-        logger.info(pdf.getName()+"v"+pdf.getVersion()+" by norway240 disabled!");
+        logger.info("["+pdf.getAuthors().get(0)+"] ["+pdf.getName()+"] "pdf.getName()+" v"+pdf.getVersion()+" has been disabled!");
     }
 
     

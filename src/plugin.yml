@@ -1,0 +1,6 @@
+name: Jobs
+version: 1.0.0
+description: Keep track of all the jobs on your server
+author: Bloc Crew
+website: http://bloccrew.com
+main: com.bloccrew.plugin.jobs.JobsPlugin
